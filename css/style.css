@@ -1,0 +1,929 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import 'variables';
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+ :root {
+    --Primary-color: #F39C12;
+    --Secondary-color: #304347;
+    --text-color: #E5EBEF;
+}
+
+body {
+    background-color: #061719 !important;
+}
+
+.navbar .navbar-brand img {
+    height: 40px;
+}
+
+.nav-item .nav-link {
+    font-size: 15px !important;
+    text-transform: uppercase;
+    color: var(--Secondary-color) !important;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--Primary-color) !important;
+}
+
+.nav-item .nav-link:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    background-color: var(--Primary-color) !important;
+}
+
+.navbar .nav-item:hover .dropdown-menu::before {
+    background-color: var(--Primary-color) !important;
+}
+
+.navbar .nav-item:hover .dropdown-menu .dropdown-item {
+    color: var(--Secondary-color);
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background: none;
+}
+
+.navbar-nav .right {
+    background-color: var(--Primary-color);
+    color: var(--Secondary-color);
+    border-radius: 7px;
+}
+
+.navbar-nav .fa-bag-shopping {
+    padding: 20px !important;
+    color: var(--Secondary-color);
+    margin-top: 5px;
+}
+
+.carousel .carousel-inner .carousel-item img {
+    height: 80vh !important;
+}
+
+.carousel-caption {
+    margin-bottom: 140px !important;
+}
+
+.carousel-caption .welcomeHeader {
+    font-size: 55px;
+    color: var(--text-color);
+}
+
+.carousel-caption p {
+    color: var(--text-color);
+}
+
+.carousel-caption .carousel-btn .res-btn {
+    background-color: var(--Primary-color);
+    color: var(--Secondary-color);
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.carousel-caption .carousel-btn .res-btn:hover {
+    background-color: var(--Primary-color) !important;
+    color: var(--Secondary-color);
+}
+
+.carousel-caption .carousel-btn .menu-btn {
+    background-color: none;
+    color: var(--text-color);
+    border-radius: 7px;
+    border: none;
+}
+
+.carousel-caption .carousel-btn .menu-btn:hover {
+    border: none !important;
+}
+
+.carousel .carousel-caption .text:before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: var(--Primary-color);
+    left: 0;
+    top: 30px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.about {
+    color: var(--Secondary-color);
+    position: relative;
+}
+
+.about p:before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: var(--Primary-color);
+    left: 0;
+    top: 58px !important;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.about .abt-btn {
+    background-color: var(--Primary-color);
+    color: var(--Secondary-color);
+    border-radius: 7px;
+    border: none;
+    padding: 10px 30px;
+}
+
+.about .abt-btn:hover {
+    background-color: var(--Primary-color) !important;
+    color: var(--Secondary-color);
+    border: none;
+}
+
+.about a {
+    text-decoration: none;
+    color: var(--Secondary-color);
+}
+
+.about a .fa-brands:hover {
+    color: var(--Primary-color);
+}
+
+.sec-About hr {
+    border: 5px dotted;
+    border-style: dotted none none none;
+    height: 2px;
+    width: 100%;
+    color: grey;
+}
+
+.choose-us {
+    color: var(--Secondary-color);
+    position: relative;
+}
+
+.choose-us .line::before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: var(--Primary-color);
+    left: 48%;
+    top: -20px !important;
+    border-radius: 5px;
+    position: absolute;
+    /* border-top: 5px solid var(--Primary-color);
+    border-radius: 10px; */
+}
+
+.choose-us .card .card-img-top {
+    max-width: 50px;
+    margin-left: 20px;
+}
+
+.working-hours {
+    color: var(--Secondary-color);
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.working-hours img {
+    max-width: 100%;
+}
+
+.working-hours .card-img-overlay {
+    /* position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: .8;
+    z-index: 2; */
+    color: var(--text-color);
+}
+
+.working-hours .title:before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: var(--Primary-color);
+    left: 63px;
+    top: 120px !important;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.working-hours .overlay {
+    position: relative;
+}
+
+.working-hours .card-img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.working-hours .reserv-btn {
+    background-color: var(--Primary-color) !important;
+    color: var(--Secondary-color) !important;
+    border-radius: 7px;
+    border: none;
+    padding: 10px 30px;
+}
+
+.working-hours .reserv-btn:hover {
+    background-color: var(--Primary-color) !important;
+    color: var(--Secondary-color) !important;
+    border: none;
+}
+
+.working-hours .contact-btn {
+    color: var(--text-color);
+    border: none;
+}
+
+.working-hours .contact-btn:hover {
+    color: var(--text-color);
+    border: none;
+}
+
+.working-hours .time h5 span {
+    color: var(--Primary-color);
+}
+
+.working-hours .dynamic-header {
+    display: none;
+}
+
+.rating h1 span {
+    color: var(--Primary-color);
+}
+
+.rating p {
+    text-transform: uppercase;
+}
+
+.download {
+    color: var(--text-color);
+    position: relative;
+}
+
+.download .text:before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: var(--Primary-color);
+    left: 15px;
+    top: 57px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.download h1 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.download p {
+    margin-left: 50px;
+}
+
+.download a {
+    background-color: var(--Primary-color) !important;
+    color: var(--Secondary-color) !important;
+    border-radius: 7px;
+    border: none;
+    padding: 10px 30px;
+}
+
+.download img {
+    height: 500px;
+}
+
+.testimonials {
+    color: var(--Secondary-color);
+    position: relative;
+}
+
+.testimonials .line::before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: var(--Primary-color);
+    left: 48%;
+    top: 0 !important;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.testimonials h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+/* slider */
+
+
+/* .testimonials .swiper {
+    text-align: left !important;
+} */
+
+.swiper .card-content hr {
+    border: 2px dotted;
+    border-style: dotted none none none;
+    height: 2px;
+    width: 100%;
+    color: grey;
+}
+
+.testimonials .slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.testimonials .slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    /* border-radius: 25px; */
+}
+
+.testimonials .card {
+    border: 2.5px var(--text-color) dotted;
+    color: var(--Secondary-color);
+    box-shadow: none !important;
+    height: 410px;
+}
+
+.testimonials .swiper-slide .card-content .card-image img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.testimonials .image-content,
+.testimonials .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 14px;
+}
+
+.testimonials .image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+
+/* .testimonials .overlay::before,
+.testimonials .overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+} */
+
+.testimonials .overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+
+.testimonials .name {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.testimonials .date {
+    font-size: small;
+    background-color: #E3E6E6;
+    color: var(--Secondary-color);
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin-top: 10px;
+}
+
+.testimonials .description {
+    font-size: 14px;
+    color: #707070;
+    /* text-align: center; */
+}
+
+
+/* .testimonials .button {
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: var(--Primary-color);
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+} */
+
+
+/* .testimonials .button:hover {
+    background: #265DF2;
+} */
+
+.testimonials .swiper-navBtn {
+    color: var(--Primary-color);
+    transition: color 0.3s ease;
+}
+
+.testimonials .swiper-navBtn:hover {
+    color: var(--Primary-color);
+}
+
+.testimonials .swiper-navBtn::before,
+.testimonials .swiper-navBtn::after {
+    font-size: 35px;
+}
+
+.testimonials .swiper-button-next {
+    right: 0;
+    outline: none;
+}
+
+.testimonials .swiper-button-prev {
+    left: 0;
+    outline: none;
+}
+
+.testimonials .swiper-pagination-bullet {
+    background-color: var(--Primary-color);
+    opacity: 1;
+    outline: none;
+}
+
+.testimonials .swiper-pagination-bullet-active {
+    background-color: var(--Primary-color);
+    outline: none;
+}
+
+
+/* slider */
+
+.previews .card {
+    box-shadow: 0 0.5em 0.5em -0.5em gray;
+}
+
+.previews hr {
+    border: 5px dotted;
+    border-style: dotted none none none;
+    height: 2px;
+    width: 100%;
+    color: grey;
+}
+
+.newsletter {
+    position: relative;
+}
+
+.newsletter .line::before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: var(--Primary-color);
+    left: 48%;
+    top: 0 !important;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.newsletter h1 {
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0px 240px !important;
+}
+
+.newsletter hr {
+    border: 2px dotted;
+    border-style: dotted none none none;
+    height: 2px;
+    width: 100%;
+    color: grey;
+}
+
+.newsletter .date {
+    background-color: #E3E6E6;
+    padding: 0px 7px;
+    border-radius: 50px;
+}
+
+.newsletter .card {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.newsletter .card img {
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.newsletter .card img:hover {
+    transform: scale(1.1);
+}
+
+.newsletter .card p a {
+    color: var(--Primary-color);
+    text-decoration: none;
+}
+
+.newsletter .card p a:hover {
+    text-decoration: underline;
+}
+
+.previews .pub-btn {
+    background-color: var(--Primary-color) !important;
+    color: var(--Secondary-color) !important;
+    border-radius: 7px;
+    border: none;
+    padding: 10px 30px;
+}
+
+.pub-btn:hover,
+.pub-btn:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em gray;
+    transform: translateY(-0.10em);
+}
+
+.subscribe {
+    color: var(--text-color);
+    position: relative;
+}
+
+.subscribe .title::before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: var(--Primary-color);
+    left: 50%;
+    top: 50px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.subscribe .card img {
+    height: 400px;
+}
+
+.subscribe .card h1 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.subscribe .card-img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.subscribe .card-img-overlay .sub-btn {
+    background-color: var(--Primary-color) !important;
+    color: var(--Secondary-color) !important;
+    border-radius: 7px;
+    border: none;
+    padding: 7px 30px;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--text-color);
+    margin-right: 130px !important;
+}
+
+.subscribe form {
+    margin-left: 60px;
+}
+
+.subscribe form::placeholder {
+    color: var(--Secondary-color) !important;
+}
+
+
+/* .previews .pub-btn:hover {
+    animation-duration: 2s;
+    transition: .3s ease-in-out;
+    transform: scale(1.0);
+} */
+
+footer {
+    color: var(--text-color);
+}
+
+footer .f-logo {
+    height: 50px;
+}
+
+footer .social a {
+    color: var(--text-color);
+}
+
+footer .social a:hover {
+    color: var(--Primary-color);
+}
+
+footer hr {
+    border: 5px dotted;
+    border-style: dotted none none none;
+    height: 2px;
+    width: 100%;
+    color: grey;
+    /* margin-top: 60px !important; */
+}
+
+footer .readmore,
+.top-btn {
+    font-size: small;
+    color: var(--Primary-color);
+    text-decoration: none;
+}
+
+footer .readmore:hover,
+.top-btn:hover {
+    color: var(--Primary-color);
+}
+
+footer .gellery img {
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+footer .gal {
+    padding-left: 50px !important;
+}
+
+footer .gal .icon a {
+    color: var(--text-color);
+}
+
+footer #myBtn {
+    color: var(--Primary-color);
+    border: none;
+    outline: none;
+    background-color: #061719;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 800px) {
+    .navbar .navbar-brand img {
+        height: 25px !important;
+    }
+    .navbar-nav {
+        text-align: right !important;
+    }
+    .navbar-nav li .right {
+        background-color: #fff !important;
+        color: var(--Secondary-color) !important;
+        width: fit-content !important;
+        margin-left: auto;
+    }
+    /* .navbar .nav-item:hover .dropdown-menu {
+        display: none;
+    }
+    .nav-item .nav-link:hover .dropdown-menu {
+        display: none !important;
+    } */
+    /* .nav-item .nav-link {
+        font-size: medium !important;
+    } */
+    .carousel-caption {
+        margin: auto !important;
+        text-align: center;
+    }
+    .carousel .carousel-inner .carousel-item img {
+        height: 50vh !important;
+    }
+    .carousel-caption .welcomeHeader {
+        font-size: larger;
+    }
+    .carousel-caption .carousel-btn .res-btn {
+        padding: 5px 10px;
+    }
+    .carousel-indicators {
+        display: none !important;
+    }
+    .sec-About video {
+        height: auto;
+        width: 100% !important;
+    }
+    .choose-us .card {
+        text-align: center !important;
+        margin: 20px auto !important;
+    }
+    .choose-us .card img {
+        margin: auto !important;
+    }
+    .overlay {
+        display: none;
+    }
+    .working-hours .img {
+        display: none;
+    }
+    .working-hours .dynamic-header {
+        display: block;
+    }
+    .dynamic-header::before {
+        content: "";
+        display: block;
+        width: 35px;
+        height: 5px;
+        background: var(--Primary-color);
+        left: 46%;
+        top: 40px !important;
+        border-radius: 5px;
+        position: absolute;
+    }
+    .rating .rate {
+        margin: 10px auto;
+    }
+    .download {
+        text-align: center;
+        position: relative;
+    }
+    .download h1 {
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .download img {
+        height: 300px;
+        margin: auto;
+    }
+    .download .text:before {
+        content: "";
+        display: block;
+        width: 35px;
+        height: 5px;
+        background: var(--Primary-color);
+        left: 50%;
+        top: 25px !important;
+        border-radius: 5px;
+        position: absolute;
+    }
+    .download a {
+        margin-bottom: 10px;
+    }
+    .newsletter {
+        text-align: center;
+    }
+    .newsletter h1 {
+        font-weight: 400;
+        font-size: 35px;
+        margin: auto !important;
+    }
+    .newsletter .card {
+        margin: 10px auto !important;
+    }
+    .testimonials .card {
+        /* height: fit-content !important; */
+        max-width: 100%;
+    }
+    .publication small {
+        text-align: center !important;
+    }
+    .publication .pub-btn {
+        margin: 10px 80px !important;
+    }
+    .subscribe .card h1 {
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .subscribe .card-img-overlay .sub-btn {
+        margin: auto !important;
+    }
+    .subscribe form {
+        margin: auto !important;
+    }
+    footer {
+        text-align: center;
+        margin: auto !important;
+    }
+    footer .f-logo {
+        height: 40px;
+    }
+    footer .contact ul p {
+        float: left !important;
+    }
+    footer .gal {
+        padding: 0 !important;
+    }
+}
+
+
+/* tablet */
+
+@media only screen and (min-device-width: 768px) {
+    /* .carousel-caption {
+        margin: 70px;
+        text-align: center;
+    }
+    .carousel .carousel-inner .carousel-item img {
+        height: 50vh !important;
+    } */
+    .newsletter {
+        text-align: center;
+    }
+    .newsletter h1 {
+        font-weight: 400;
+        font-size: 35px;
+        margin: auto !important;
+    }
+    .newsletter .card {
+        margin: 10px auto !important;
+    }
+    /* .download {
+        text-align: center;
+        position: relative;
+    } */
+    /* .download .text:before {
+        content: "";
+        display: block;
+        width: 35px;
+        height: 5px;
+        background: var(--Primary-color);
+        left: 50%;
+        top: 25px !important;
+        border-radius: 5px;
+        position: absolute;
+    } */
+    .subscribe .card h1 {
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .subscribe .card-img-overlay .sub-btn {
+        margin: auto !important;
+    }
+    .subscribe form {
+        margin: auto !important;
+    }
+    .subscribe .title::before {
+        content: "";
+        display: block;
+        width: 35px;
+        height: 5px;
+        background: var(--Primary-color);
+        left: 47%;
+        top: 50px;
+        border-radius: 5px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 576px) {}
+
+@media (max-width: 767.98px) {
+    .subscribe .card {
+        max-width: 100%;
+    }
+    .subscribe .card h1 {
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .subscribe .card-text {
+        display: none;
+    }
+    .subscribe .card-img-overlay .sub-btn {
+        margin: auto !important;
+    }
+    /* .subscribe form {
+    
+    } */
+}

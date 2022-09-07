@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant-Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/458959e317.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="container-fluid header">
+        <div class="card p-2 mt-3">
+            <nav class="navbar sticky-top navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-sm-new.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-5 mx-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link me-3" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-3" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Order <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-3" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-3" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="nav navbar-nav ms-auto">
+                            <li><a href="#" class="nav-link right text-uppercase p-3">Reservation</a></li>
+                            <li>
+                                <a href="#" class="ms-3"> <i class="fa-sharp fa-2xl fa-solid fa-bag-shopping"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+
+    <!-- banner -->
+    <div class="container-fluid pt-3">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/home-slide-1 (1).jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block text-start">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="text text-uppercase ms-5">
+                                    <span>Hello, new friend!</span>
+                                </p>
+                                <h1 class="welcomeHeader">Welcome Back to Tastyc</h1>
+                                <p>Some representative placeholder content for the first slide.</p>
+                                <div class="inline-block carousel-btn">
+                                    <a href="#" class="btn btn-lg res-btn">Reservation</a>
+                                    <a href="#" class="btn menu-btn">Open Menu</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/home-slide-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block text-start">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="text text-uppercase ms-5">
+                                    <span>Hello, new friend!</span>
+                                </p>
+                                <h1 class="welcomeHeader">Second Slide!</h1>
+                                <p>Some representative placeholder content for the second slide.</p>
+                                <div class="inline-block carousel-btn">
+                                    <a href="#" class="btn btn-lg res-btn">Reservation</a>
+                                    <a href="#" class="btn menu-btn">Open Menu</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/home-slide-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block text-start">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class=" text text-uppercase ms-5">
+                                    <span>Hello, new friend!</span>
+                                </p>
+                                <h1 class="welcomeHeader">Third Slide!</h1>
+                                <p>Some representative placeholder content for the third slide.</p>
+                                <div class="inline-block carousel-btn">
+                                    <a href="#" class="btn btn-lg res-btn">Reservation</a>
+                                    <a href="#" class="btn menu-btn">Online Shop</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+              <i class="fa-solid fa-xl fa-arrow-left"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <i class="fa-solid fa-xl fa-arrow-right"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container my-5 sec-About">
+        <div class="card p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <video width="490" height="500" class="rounded-3" controls>
+                            <source src="images/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="about py-5">
+                            <p class="text-uppercase fw-bolder ms-5">About Us</p>
+                            <h1>We invite you to visit our restaurant</h1>
+                            <small>
+                                Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam
+                                vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? 
+                                Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae
+                                repudiandae dolorem, beatae dolorum, praesentium itaque et quam quaerat.
+                                Cumque, consequatur!
+                            </small>
+                            <div class="inline-block pt-3 col-md-12">
+                                <a href=" # " class="btn text-uppercase abt-btn">Read More</a>
+                                <a href="#" class="mx-3"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="me-3"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="me-3"> <i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="me-3"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr class="mt-5">
+
+            <div class="container my-5">
+                <div class="choose-us text-center">
+                    <div class="line mb-2"></div>
+                    <small class="text-uppercase mt-2">Features</small>
+                    <h1 class="heading">Why people choose us?</h1>
+                    <p>Porro eveniet, autem ipsam vitae consequatur!</p>
+                    <div class="row pt-5">
+                        <div class="col-lg-4">
+                            <div class="card text-start border-0">
+                                <img src="images/icon-serv-1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Menu for every taste</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card text-start border-0">
+                                <img src="images/icon-serv-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Always fresh ingredients</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card text-start border-0">
+                                <img src="images/icon-serv-3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Experienced chefs</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-4">
+
+            <div class="card mb-3 working-hours my-5 border-0">
+                <div class="row g-0">
+                    <div class="col-lg-8 col-md-12 col-sm-12 overlay">
+                        <img src="images/gallery-i-1.jpg" class="img-fluid rounded-start" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="m-5">
+                                <p class="text-uppercase fw-bolder ms-5 pt-5 title">About Us</p>
+                                <h1 class="card-title">Working hours</h1>
+                                <p class="card-text">Rolorem, beatae dolorum, praesentium itaque et quam quaerat.</p>
+                                <div class="inline-block pt-3">
+                                    <a href=" # " class="btn text-uppercase fw-bold reserv-btn">Reservation</a>
+                                    <a href=" # " class="btn text-uppercase contact-btn">Contact us</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="card-body m-5 text-center time">
+                            <h4 class="fw-bolder dynamic-header">Working Hours</h4>
+                            <p class="card-title text-uppercase">Sunday to tuesday</p>
+                            <h5 class="card-text fw-bold">09 <span>:</span> 00</h5>
+                            <h5 class="card-text fw-bold">22 <span>:</span> 00</h5>
+                            <br>
+                            <p class="card-title text-uppercase">friday to saturday</p>
+                            <h5 class="card-text fw-bold">11 <span>:</span> 00</h5>
+                            <h5 class="card-text fw-bold">19 <span>:</span> 00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-5">
+
+            <div class="container rating py-5">
+                <div class="row text-center">
+                    <div class="col-lg-3 col-sm-12 rate">
+                        <h1>200 <span>+</span></h1>
+                        <p>visitors daily</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 rate">
+                        <h1>400 <span>+</span></h1>
+                        <p>deliveries monthly</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 rate">
+                        <h1>100 <span>%</span></h1>
+                        <p>positive feedback</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 rate">
+                        <h1>40 <span>+</span></h1>
+                        <p>awards and honors</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container download mb-5">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 my-5">
+                <p class="text text-uppercase">
+                    <span>mobile application</span>
+                </p>
+                <h1 class="fw-bold">Download our Application</h1>
+                <small>Quaerat debitis, vel, sapiente dicta sequi
+                    labore porro pariatur harum expedita.</small>
+                <div class="inline-block pt-4">
+                    <a href="#" class="btn text-uppercase me-3"><i class="fa-brands fa-apple"></i>  App store</a>
+                    <a href="#" class="btn xtext-uppercase me-3"><i class="fa-brands fa-google"></i>  Playmarket</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <img src="images/burger.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container previews my-5">
+        <div class="card p-5 text-center">
+            <div class="testimonials pt-3">
+                <div class="line"></div>
+                <p class="heading text-uppercase">testimonials</p>
+                <h1>What Our visitors say</h1>
+                <small>Porro eveniet, autem ipsam corrupti consectetur cum.
+                    Repudiandae dignissimos fugiat sit nam.</small>
+                <!-- slider -->
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide p-2">
+                                <div class="card-content text-start">
+                                    <h4 class="title">It was very delicious!</h4>
+                                    <p class="description">Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae
+                                        dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!</p>
+                                    <hr>
+                                    <div class="inline-block">
+                                        <div class="float-start">
+                                            <div class="card-image d-flex">
+                                                <img src="images/face-4.jpg" alt="">
+                                                <p class="name">Paul Trueman</p>
+                                            </div>
+                                        </div>
+                                        <div class="float-end date">
+                                            <small>May 1, 2021</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide p-2">
+                                <div class="card-content text-start">
+                                    <h4 class="title">The best restaurant</h4>
+                                    <p class="description">Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae
+                                        dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!</p>
+                                    <hr>
+                                    <div class="inline-block">
+                                        <div class="float-start">
+                                            <div class="card-image d-flex">
+                                                <img src="images/face-3.jpg" alt="">
+                                                <p class="name">Paul Trueman</p>
+                                            </div>
+                                        </div>
+                                        <div class="float-end date">
+                                            <small>May 1, 2021</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide p-2">
+                                <div class="card-content text-start">
+                                    <h4 class="title">I will visit again.</h4>
+                                    <p class="description">Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae
+                                        dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!</p>
+                                    <hr>
+                                    <div class="inline-block">
+                                        <div class="float-start">
+                                            <div class="card-image d-flex">
+                                                <img src="images/face-2.jpg" alt="">
+                                                <p class="name">Paul Trueman</p>
+                                            </div>
+                                        </div>
+                                        <div class="float-end date">
+                                            <small>May 1, 2021</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide p-2">
+                                <div class="card-content text-start">
+                                    <h4 class="title">It was very delicious!</h4>
+                                    <p class="description">Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae
+                                        dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!</p>
+                                    <hr>
+                                    <div class="inline-block">
+                                        <div class="float-start">
+                                            <div class="card-image d-flex">
+                                                <img src="images/face-1.jpg" alt="">
+                                                <p class="name">Paul Trueman</p>
+                                            </div>
+                                        </div>
+                                        <div class="float-end date">
+                                            <small>May 1, 2021</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide p-2">
+                                <div class="card-content text-start">
+                                    <h4 class="title">It was very delicious!</h4>
+                                    <p class="description">Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae
+                                        dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!</p>
+                                    <hr>
+                                    <div class="inline-block">
+                                        <div class="float-start">
+                                            <div class="card-image d-flex">
+                                                <img src="images/face-4.jpg" alt="">
+                                                <p class="name">Paul Trueman</p>
+                                            </div>
+                                        </div>
+                                        <div class="float-end date">
+                                            <small>May 1, 2021</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide p-2">
+                                <div class="card-content text-start">
+                                    <h4 class="title">It was very delicious!</h4>
+                                    <p class="description">Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae
+                                        dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!</p>
+                                    <hr>
+                                    <div class="inline-block">
+                                        <div class="float-start">
+                                            <div class="card-image d-flex">
+                                                <img src="images/face-3.jpg" alt="">
+                                                <p class="name">Paul Trueman</p>
+                                            </div>
+                                        </div>
+                                        <div class="float-end date">
+                                            <small>May 1, 2021</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide p-2">
+                                <div class="card-content text-start">
+                                    <h4 class="title">It was very delicious!</h4>
+                                    <p class="description">Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae
+                                        dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!</p>
+                                    <hr>
+                                    <div class="inline-block">
+                                        <div class="float-start">
+                                            <div class="card-image d-flex">
+                                                <img src="images/face-2.jpg" alt="">
+                                                <p class="name">Paul Trueman</p>
+                                            </div>
+                                        </div>
+                                        <div class="float-end date">
+                                            <small>May 1, 2021</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide p-2">
+                                <div class="card-content text-start">
+                                    <h4 class="title">It was very delicious!</h4>
+                                    <p class="description">Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae
+                                        dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!</p>
+                                    <hr>
+                                    <div class="inline-block">
+                                        <div class="float-start">
+                                            <div class="card-image d-flex">
+                                                <img src="images/face-1.jpg" alt="">
+                                                <p class="name">Paul Trueman</p>
+                                            </div>
+                                        </div>
+                                        <div class="float-end date">
+                                            <small>May 1, 2021</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide p-2">
+                                <div class="card-content text-start">
+                                    <h4 class="title">It was very delicious!</h4>
+                                    <p class="description">Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae
+                                        dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!</p>
+                                    <hr>
+                                    <div class="inline-block">
+                                        <div class="float-start">
+                                            <div class="card-image d-flex">
+                                                <img src="images/face-4.jpg" alt="">
+                                                <p class="name">Paul Trueman</p>
+                                            </div>
+                                        </div>
+                                        <div class="float-end date">
+                                            <p>May 1, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+
+                <!-- slider -->
+
+            </div>
+
+            <hr class="mt-5">
+
+            <div class="newsletter mt-5">
+                <div class="line mb-3"></div>
+                <p class="heading text-uppercase">newsletter</p>
+                <h1>Use the tips and recipes of our chefs</h1>
+                <small>Porro eveniet, autem ipsam corrupti consectetur cum.
+                    Repudiandae dignissimos fugiat sit nam.</small>
+                <div class="row pt-5 mx-auto text-center">
+                    <div class=" col-lg-4 ">
+                        <div class="card ">
+                            <img src="images/blog-6.jpg " class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title fw-bold ">Business Breakfast</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make ..<a href="# ">Read More</a></p>
+                                <hr class="mb-2 ">
+                                <div class="inline-block p-2">
+                                    <div class="float-start">
+                                        <i class="fa-solid fa-user"></i> Admin
+                                    </div>
+                                    <div class="float-end date">
+                                        <small>May 1, 2021</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="card ">
+                            <img src="images/blog-5.jpg " class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title fw-bold ">Pancakes in Chocolate</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make ..<a href="# ">Read More</a></p>
+                                <hr class="mb-2 ">
+                                <div class="inline-block p-2">
+                                    <div class="float-start">
+                                        <i class="fa-solid fa-user"></i> Admin
+                                    </div>
+                                    <div class="float-end date">
+                                        <small>May 1, 2021</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="card ">
+                            <img src="images/blog-4.jpg " class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title fw-bold ">Tuna & Tomatoes</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make ..<a href="# "> Read More</a></p>
+                                <hr class="mb-2 ">
+                                <div class="inline-block p-2">
+                                    <div class="float-start">
+                                        <i class="fa-solid fa-user"></i> Admin
+                                    </div>
+                                    <div class="float-end date">
+                                        <small>May 1, 2021</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container publication">
+                    <div class="inline-block py-5">
+                        <small class="text-start text-mute float-start mt-3"> Read the news of our restaurant, recipes for delicious fears, tips for your home kitchen in our blog!</small>
+                        <a href="#" class="btn float-end pub-btn me-4">All Publications</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="mt-5">
+
+            <div class="subscribe pt-5">
+                <div class="card">
+                    <img src="images/paella1.jpeg" class="img-fluid rounded" alt="...">
+                    <div class="card-img-overlay">
+                        <div class="m-5">
+                            <p class="text-uppercase fw-bolder title">newsletter</p>
+                            <h1 class="card-title">Subscribe our newsletter</h1>
+                            <p class="card-text">Rolorem, beatae dolorum, praesentium itaque et quam quaerat.</p>
+                            <form class="row row-cols-lg-auto g-2 align-items-center">
+                                <div class="col-lg-8">
+                                    <label class="visually-hidden" for="inlineFormInputGroupUsername">Email</label>
+                                    <input type="email" class="form-control p-2" id="inlineFormInputGroupemail" placeholder="Enter your email here">
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <button type="submit" class="btn sub-btn">Subscribe</button>
+                                </div>
+                                <!-- <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                    <button class="btn btn-primary" type="button">Subscribe</button>
+                                </div> -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer class="py-3">
+        <div class="container">
+            <div class="inline-block pb-5">
+                <img class="float-start f-logo" src="images/Logo-sm-white-new.png" alt="logo here..">
+                <div class="float-end social mt-2">
+                    <a href="#" class="mx-3"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="me-3"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="me-3"> <i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="me-3"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <hr class="my-5">
+
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 mb-3">
+                    <h5>About Us</h5>
+                    <small class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam facere iste blanditiis, repellendus odio accusantium, dolores est voluptatum tempora praesentium, ad dolorem. Nesciunt, est aut et a debitis ad?
+                    </small>
+                    <br>
+                    <a class="text-uppercase readmore" href="#">Read more</a>
+                </div>
+
+                <div class="col-lg-3 col-sm-12 mb-3 contact">
+                    <h5>Contact Info</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <div class="inline-block call">
+                                <p class="float-start">Call :</p>
+                                <p class="float-end text-muted ">+76(094) 754 43 7 </p>
+                            </div>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <div class="inline-block email">
+                                <p class="float-start">Write :</p>
+                                <p class="float-end text-muted ">testing345@gmail.com</p>
+                            </div>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <div class="inline-block location">
+                                <p class="float-start">Find us :</p>
+                                <p class="float-end text-muted ">Canada, Toronto, Avenue32</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-sm-12 mb-3 gal">
+                    <h5>Gallery</h5>
+                    <div class="slide-container swiper inline-block gellery mb-3 g-2">
+                        <img src="images/gallery-i-1.jpg" alt="">
+                        <img src="images/gallery-i-2.jpg" alt="">
+                        <img src="images/gallery-i-3.jpg" alt="">
+                        <img src="images/gallery-i-4.jpg" alt="">
+                    </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <p><a class="text-uppercase readmore" href="#">see more</a></p>
+                        <div class="icon me-5">
+                            <a href="#"><i class="fa-solid fa-arrow-left me-4"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5">
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+                <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <!-- <a class="top-btn text-uppercase" onclick="topFunction()" id="myBtn" title="Go to top" href="">Back to top</a>
+                     -->
+                    <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js" integrity="sha512-/bOVV1DV1AQXcypckRwsR9ThoCj7FqTV2/0Bm79bL3YSyLkVideFLE3MIZkq1u5t28ke1c0n31WYCOrO01dsUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/bootstrap.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa " crossorigin="anonymous "></script>
+</body>
+
+</html>
